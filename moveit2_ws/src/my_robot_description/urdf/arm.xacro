@@ -107,7 +107,7 @@
             </geometry>
         </collision>
     </link>
-    <link name="hand_tool_link">
+    <link name="tool_link">
     </link>
     <joint name="joint1" type="revolute">
         <parent link="base_link" />
@@ -154,7 +154,7 @@
     </joint>
     <joint name="hand_tool_joint" type="fixed">
         <parent link="hand_link" />
-        <child link="hand_tool_link" />
+        <child link="tool_link" />
         <origin xyz="0 0 0.02" rpy="0 0 0" />
     </joint>
 </robot>

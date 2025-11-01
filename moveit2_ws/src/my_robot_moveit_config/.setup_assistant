@@ -7,7 +7,7 @@ moveit_setup_assistant_config:
   package_settings:
     author_name: ElJoho
     author_email: johalopezari@unal.edu.co
-    generated_timestamp: 1761927479
+    generated_timestamp: 1762030128
   control_xacro:
     command:
       - position
