@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Make ROS distro available to the xacro -->
+  <xacro:arg name="ros_distro" default="$(env ROS_DISTRO)"/>
+
+  <!-- Choose plugin based on distro -->
+  <xacro:property name="plugin_name"
+                  value="${'mock_components/GenericSystem'
+                          if ros_distro in ['iron','jazzy','rolling']
+                          else 'ros2_control_demo_hardware/GenericSystem'}"/>
+
+  <ros2_control name="Arm" type="system">
+    <hardware>
+      <plugin>${plugin_name}</plugin>
+    </hardware>
+
+    <joint name="joint1">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="joint2">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="joint3">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="joint4">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="joint5">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="joint6">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="gripper_left_finger_joint">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+  </ros2_control>
+</robot>
