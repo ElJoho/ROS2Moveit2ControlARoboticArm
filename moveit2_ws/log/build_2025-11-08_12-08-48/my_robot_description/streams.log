@@ -1,0 +1,49 @@
+[0.010s] Invoking command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description
+[0.116s] -- The C compiler identification is GNU 13.3.0
+[0.202s] -- The CXX compiler identification is GNU 13.3.0
+[0.220s] -- Detecting C compiler ABI info
+[0.299s] -- Detecting C compiler ABI info - done
+[0.308s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.308s] -- Detecting C compile features
+[0.309s] -- Detecting C compile features - done
+[0.318s] -- Detecting CXX compiler ABI info
+[0.403s] -- Detecting CXX compiler ABI info - done
+[0.413s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.413s] -- Detecting CXX compile features
+[0.413s] -- Detecting CXX compile features - done
+[0.417s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.546s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.725s] -- Configuring done (0.7s)
+[0.728s] -- Generating done (0.0s)
+[0.729s] -- Build files have been written to: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_description
+[0.733s] Invoked command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description
+[0.735s] Invoking command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_description -- -j12 -l12
+[0.766s] Invoked command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_description -- -j12 -l12
+[0.774s] Invoking command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_description
+[0.781s] -- Install configuration: ""
+[0.781s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/launch
+[0.781s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/launch/display.launch.xml
+[0.781s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/rviz
+[0.781s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/rviz/urdf_config.rviz
+[0.781s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/urdf
+[0.781s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/urdf/common_properties.xacro
+[0.782s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/urdf/my_robot.urdf.xacro
+[0.782s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/urdf/gripper.xacro
+[0.782s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/urdf/my_robot.ros2_control.xacro
+[0.782s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/urdf/arm.xacro
+[0.782s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[0.782s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[0.782s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[0.782s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[0.782s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+[0.782s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[0.783s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+[0.783s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+[0.783s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[0.783s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[0.783s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/package.dsv
+[0.783s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[0.783s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[0.783s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[0.784s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_description/share/my_robot_description/package.xml
+[0.785s] Invoked command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_description
