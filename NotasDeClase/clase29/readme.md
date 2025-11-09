@@ -6,5 +6,5 @@ ros2 run controller_manager ros2_control_node --ros-args --params-file /home/joh
 
 ros2 run controller_manager spawner joint_state_broadcaster
 ros2 run controller_manager spawner arm_controller
-ros2 run controller_manager spawner gripper_controller
+ros2 run controller_manager spawner gripper_controllers
 

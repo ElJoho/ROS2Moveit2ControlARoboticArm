@@ -6,3 +6,11 @@ sudo apt-get install ros-jazzy-*-ros2-control
 sudo apt-get install ros-jazzy-joint-state-publisher-gui
 sudo apt-get install ros-jazzy-tf-transformations
 sudo apt-get install ros-jazzy-moveit*
+
+
+sudo apt-get install python3-pip
+pip install transforms3d
+pip install flask
+pip install pyserial
+pip install flask-ask-sdk
+pip install ask-sdk
