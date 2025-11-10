@@ -1,0 +1,24 @@
+[0.946s] Invoking command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/src/my_robot_commander_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_commander_py build --build-base /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_py/build install --record /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_py/install.log --single-version-externally-managed install_data
+[1.224s] running egg_info
+[1.247s] writing ../../build/my_robot_commander_py/my_robot_commander_py.egg-info/PKG-INFO
+[1.247s] writing dependency_links to ../../build/my_robot_commander_py/my_robot_commander_py.egg-info/dependency_links.txt
+[1.247s] writing entry points to ../../build/my_robot_commander_py/my_robot_commander_py.egg-info/entry_points.txt
+[1.247s] writing requirements to ../../build/my_robot_commander_py/my_robot_commander_py.egg-info/requires.txt
+[1.247s] writing top-level names to ../../build/my_robot_commander_py/my_robot_commander_py.egg-info/top_level.txt
+[1.292s] reading manifest file '../../build/my_robot_commander_py/my_robot_commander_py.egg-info/SOURCES.txt'
+[1.293s] writing manifest file '../../build/my_robot_commander_py/my_robot_commander_py.egg-info/SOURCES.txt'
+[1.293s] running build
+[1.293s] running build_py
+[1.293s] copying my_robot_commander_py/test_moveit.py -> /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_py/build/lib/my_robot_commander_py
+[1.294s] running install
+[1.300s] running install_lib
+[1.322s] copying /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_py/build/lib/my_robot_commander_py/test_moveit.py -> /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_py/lib/python3.12/site-packages/my_robot_commander_py
+[1.323s] byte-compiling /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_py/lib/python3.12/site-packages/my_robot_commander_py/test_moveit.py to test_moveit.cpython-312.pyc
+[1.323s] running install_data
+[1.324s] running install_egg_info
+[1.347s] removing '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_py/lib/python3.12/site-packages/my_robot_commander_py-0.0.0-py3.12.egg-info' (and everything under it)
+[1.347s] Copying ../../build/my_robot_commander_py/my_robot_commander_py.egg-info to /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_py/lib/python3.12/site-packages/my_robot_commander_py-0.0.0-py3.12.egg-info
+[1.348s] running install_scripts
+[1.498s] Installing test_moveit script to /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_py/lib/my_robot_commander_py
+[1.498s] writing list of installed files to '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_py/install.log'
+[1.528s] Invoked command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/src/my_robot_commander_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_commander_py build --build-base /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_py/build install --record /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_py/install.log --single-version-externally-managed install_data

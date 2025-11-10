@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: my-robot-commander-py
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: johotan
+Maintainer-email: johalopezari@unal.edu.co
+License: TODO: License declaration
+Provides-Extra: test

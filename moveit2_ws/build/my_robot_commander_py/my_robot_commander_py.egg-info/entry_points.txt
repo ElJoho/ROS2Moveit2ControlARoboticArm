@@ -1,0 +1,2 @@
+[console_scripts]
+test_moveit = my_robot_commander_py.test_moveit:main
