@@ -1,0 +1,30 @@
+[0.016s] Invoking command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp -- -j12 -l12
+[0.053s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.316s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.362s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.378s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.398s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.521s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.523s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.612s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.700s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[0.714s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.055s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.092s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.100s] -- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.141s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.198s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.356s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.417s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[1.449s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[1.503s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.531s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[1.531s]   ament_target_dependencies() the first argument must be a valid target name
+[1.531s] Call Stack (most recent call first):
+[1.531s]   CMakeLists.txt:18 (ament_target_dependencies)
+[1.531s] 
+[1.531s] [0m
+[1.531s] -- Configuring incomplete, errors occurred!
+[1.540s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[1.543s] Invoked command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp -- -j12 -l12

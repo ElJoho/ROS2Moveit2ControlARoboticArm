@@ -67,6 +67,30 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_robot_commander_cpp/commander" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_robot_commander_cpp/commander")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_robot_commander_cpp/commander"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_robot_commander_cpp" TYPE EXECUTABLE FILES "/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp/commander")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_robot_commander_cpp/commander" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_robot_commander_cpp/commander")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_robot_commander_cpp/commander"
+         OLD_RPATH "/opt/ros/jazzy/lib:/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_robot_commander_cpp/commander")
+    endif()
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp/CMakeFiles/commander.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_commander_cpp")
 endif()
 

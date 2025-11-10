@@ -1,0 +1,1 @@
+Invoking command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_interfaces -- -j12 -l12

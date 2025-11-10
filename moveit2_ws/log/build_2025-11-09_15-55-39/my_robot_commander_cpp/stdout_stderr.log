@@ -1,0 +1,9 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/commander.dir/src/commander_template.cpp.o[0m
+[ 75%] Built target test_moveit
+[01m[K/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/src/my_robot_commander_cpp/src/commander_template.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/pose_command.hpp: No such file or directory
+    5 | #include [01;31m[K<my_robot_interfaces/msg/pose_command.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/commander.dir/build.make:76: CMakeFiles/commander.dir/src/commander_template.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/commander.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

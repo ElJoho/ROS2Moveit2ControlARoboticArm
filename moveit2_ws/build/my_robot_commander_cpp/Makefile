@@ -210,6 +210,43 @@ test_moveit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_moveit.dir/build.make CMakeFiles/test_moveit.dir/build
 .PHONY : test_moveit/fast
 
+#=============================================================================
+# Target rules for targets named commander
+
+# Build rule for target.
+commander: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 commander
+.PHONY : commander
+
+# fast build rule for target.
+commander/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/commander.dir/build.make CMakeFiles/commander.dir/build
+.PHONY : commander/fast
+
+src/commander_template.o: src/commander_template.cpp.o
+.PHONY : src/commander_template.o
+
+# target to build an object file
+src/commander_template.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/commander.dir/build.make CMakeFiles/commander.dir/src/commander_template.cpp.o
+.PHONY : src/commander_template.cpp.o
+
+src/commander_template.i: src/commander_template.cpp.i
+.PHONY : src/commander_template.i
+
+# target to preprocess a source file
+src/commander_template.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/commander.dir/build.make CMakeFiles/commander.dir/src/commander_template.cpp.i
+.PHONY : src/commander_template.cpp.i
+
+src/commander_template.s: src/commander_template.cpp.s
+.PHONY : src/commander_template.s
+
+# target to generate assembly for a file
+src/commander_template.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/commander.dir/build.make CMakeFiles/commander.dir/src/commander_template.cpp.s
+.PHONY : src/commander_template.cpp.s
+
 src/test_moveit.o: src/test_moveit.cpp.o
 .PHONY : src/test_moveit.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... my_robot_commander_cpp_uninstall"
 	@echo "... uninstall"
+	@echo "... commander"
 	@echo "... test_moveit"
+	@echo "... src/commander_template.o"
+	@echo "... src/commander_template.i"
+	@echo "... src/commander_template.s"
 	@echo "... src/test_moveit.o"
 	@echo "... src/test_moveit.i"
 	@echo "... src/test_moveit.s"

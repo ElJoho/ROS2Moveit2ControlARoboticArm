@@ -1,6 +1,7 @@
 /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp/CMakeFiles/uninstall.dir
 /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp/CMakeFiles/my_robot_commander_cpp_uninstall.dir
 /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp/CMakeFiles/test_moveit.dir
+/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp/CMakeFiles/commander.dir
 /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp/CMakeFiles/test.dir
 /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp/CMakeFiles/edit_cache.dir
 /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp/CMakeFiles/rebuild_cache.dir

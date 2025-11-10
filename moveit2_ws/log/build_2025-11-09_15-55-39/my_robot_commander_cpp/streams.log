@@ -1,0 +1,11 @@
+[0.019s] Invoking command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp -- -j12 -l12
+[0.120s] [ 50%] [32mBuilding CXX object CMakeFiles/commander.dir/src/commander_template.cpp.o[0m
+[0.120s] [ 75%] Built target test_moveit
+[1.385s] [01m[K/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/src/my_robot_commander_cpp/src/commander_template.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/pose_command.hpp: No such file or directory
+[1.386s]     5 | #include [01;31m[K<my_robot_interfaces/msg/pose_command.hpp>[m[K
+[1.386s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.386s] compilation terminated.
+[1.393s] gmake[2]: *** [CMakeFiles/commander.dir/build.make:76: CMakeFiles/commander.dir/src/commander_template.cpp.o] Error 1
+[1.393s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/commander.dir/all] Error 2
+[1.393s] gmake: *** [Makefile:146: all] Error 2
+[1.396s] Invoked command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp -- -j12 -l12

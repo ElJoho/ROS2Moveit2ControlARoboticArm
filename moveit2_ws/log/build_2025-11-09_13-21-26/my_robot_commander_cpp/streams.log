@@ -1,0 +1,50 @@
+[0.012s] Invoking command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp -- -j12 -l12
+[0.043s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.261s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.294s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.304s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.330s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.394s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.396s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.477s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.569s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[0.582s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[0.899s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.936s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[0.942s] -- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.980s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.032s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.180s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.237s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[1.265s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[1.308s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.475s] -- Configuring done (1.4s)
+[1.523s] -- Generating done (0.0s)
+[1.534s] -- Build files have been written to: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp
+[1.582s] [ 25%] [32mBuilding CXX object CMakeFiles/commander.dir/src/commander_template.cpp.o[0m
+[1.591s] [ 75%] Built target test_moveit
+[14.092s] [100%] [32m[1mLinking CXX executable commander[0m
+[14.638s] [100%] Built target commander
+[14.651s] Invoked command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp -- -j12 -l12
+[14.652s] Invoking command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp
+[14.660s] -- Install configuration: ""
+[14.661s] -- Up-to-date: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/lib/my_robot_commander_cpp/test_moveit
+[14.661s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/lib/my_robot_commander_cpp/commander
+[14.664s] -- Set non-toolchain portion of runtime path of "/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/lib/my_robot_commander_cpp/commander" to ""
+[14.664s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/ament_index/resource_index/package_run_dependencies/my_robot_commander_cpp
+[14.665s] -- Up-to-date: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/ament_index/resource_index/parent_prefix_path/my_robot_commander_cpp
+[14.665s] -- Up-to-date: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/my_robot_commander_cpp/environment/ament_prefix_path.sh
+[14.665s] -- Up-to-date: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/my_robot_commander_cpp/environment/ament_prefix_path.dsv
+[14.665s] -- Up-to-date: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/my_robot_commander_cpp/environment/path.sh
+[14.665s] -- Up-to-date: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/my_robot_commander_cpp/environment/path.dsv
+[14.665s] -- Up-to-date: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/my_robot_commander_cpp/local_setup.bash
+[14.666s] -- Up-to-date: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/my_robot_commander_cpp/local_setup.sh
+[14.666s] -- Up-to-date: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/my_robot_commander_cpp/local_setup.zsh
+[14.666s] -- Up-to-date: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/my_robot_commander_cpp/local_setup.dsv
+[14.666s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/my_robot_commander_cpp/package.dsv
+[14.666s] -- Up-to-date: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/ament_index/resource_index/packages/my_robot_commander_cpp
+[14.666s] -- Up-to-date: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/my_robot_commander_cpp/cmake/my_robot_commander_cppConfig.cmake
+[14.666s] -- Up-to-date: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/my_robot_commander_cpp/cmake/my_robot_commander_cppConfig-version.cmake
+[14.666s] -- Installing: /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_commander_cpp/share/my_robot_commander_cpp/package.xml
+[14.667s] Invoked command in '/home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/build/my_robot_commander_cpp
