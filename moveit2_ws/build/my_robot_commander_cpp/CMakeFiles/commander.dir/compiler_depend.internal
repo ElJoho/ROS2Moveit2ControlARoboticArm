@@ -3,6 +3,12 @@
 
 CMakeFiles/commander.dir/src/commander_template.cpp.o
  /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/src/my_robot_commander_cpp/src/commander_template.cpp
+ /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/pose_command__builder.hpp
+ /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/pose_command__struct.hpp
+ /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/pose_command__traits.hpp
+ /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/pose_command__type_support.hpp
+ /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/pose_command.hpp
+ /home/johotan/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h

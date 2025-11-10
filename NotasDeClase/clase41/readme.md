@@ -81,3 +81,8 @@ johotan@johotan:~/ros2/ROS2Moveit2ControlARoboticArm/moveit2_ws$ ros2 topic pub 
 publisher: beginning loop
 publishing #1: my_robot_interfaces.msg.PoseCommand(x=0.7, y=0.3, z=0.2, roll=3.1416, pitch=0.0, yaw=0.0, cartesian_path=True)
 
+
+ros2 topic pub -1 /pose_command my_robot_interfaces/msg/PoseCommand "{x: 0.7, y: 0.0, z: 0.4, roll: 3.14, pitch: 0.0, yaw: 0.0, cartesian_path: false}"
+ros2 topic pub -1 /pose_command my_robot_interfaces/msg/PoseCommand "{x: 0.7, y: 0.0, z: 0.2, roll: 3.14, pitch: 0.0, yaw: 0.0, cartesian_path: true}"
+ros2 topic pub -1 /pose_command my_robot_interfaces/msg/PoseCommand "{x: 0.7, y: 0.2, z: 0.2, roll: 3.14, pitch: 0.0, yaw: 0.0, cartesian_path: true}"
+
